@@ -1,0 +1,60 @@
+
+.logoA {
+    width: 100px;
+    height: 100px;
+}
+i#burguer {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+menu {
+    display: none;
+    margin-top: 1px !important;
+    margin-left: -71px !important;
+}
+Menu > ul {
+    list-style: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border-top: 2px solid gray;
+}
+menu > ul > li > a:hover {
+    background-color: rgb(38, 0, 255);
+}
+.categoria {
+    color: rgb(1, 1, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    margin-left: -47px;
+    font-size: 20px;
+}
+.imgcard {
+    padding: 10px;
+    width: 35%;
+    margin: auto;
+}
+.card-text {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-price {
+    color: rgb(0, 0, 197);
+}
+.card-size{
+    height: 100%;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.btn-border {
+    border-radius: 7px !important;
+}
